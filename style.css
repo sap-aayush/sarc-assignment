@@ -415,7 +415,7 @@ td{
 }
 
 tr:nth-child(even), table.list thread> tr{
-    background-color: #fff;
+    background-color: #6e3dbc;
 }
 
 input[type="text"],input[type="number"]{
