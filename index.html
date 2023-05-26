@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob nd Co.</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link for the icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!-- link for the SEO icon -->
+    <link rel="shortcut icon" href="img/icon.gif" type="image/x-icon">
+
+    <!-- links for image slider -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+    <!-- link for reaction button -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background: #000000;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="https://jacobandco.com" target="_main"><img src="img/logo.png" alt="logo" width="100">
+                    <span class="arrow"></span>
+                </a>
+                <ul>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#explore">Explore</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#collections" class="no-hover-underline">Collections</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#collections" class="no-hover-underline">Watches</a></li><br>
+                            <li><a
+                                    href="https://jacobandco.com/high-jewelry/collections/high-jewelry-by-jacob-and-co">Jewellery</a>
+                            </li><br>
+                            <li><a href="#">Something Else</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <style>
+                    .no-hover-underline:hover {
+                        text-decoration: none;
+                    }
+
+                    .no-hover-underline .dropdown-menu li:hover a {
+                        text-decoration: none;
+                    }
+                </style>
+            </nav>
+            <div class="header-container">
+                <div class="header-text">
+                    <p>Jacob & Co. Watches and Jewelleries</p>
+                    <h1>American privately held<br> jewellery and wristwatch <br>retailer founded<br> in
+                        <span>1986</span> by diamond designer <br><span>Jacob Arabo.</span>
+                    </h1>
+                </div>
+                <div class="image-slider">
+                    <img src="img/jacob4.jpg" alt="image 1">
+                    <img src="img/jacob2.jpg" alt="image 2">
+                    <img src="img/jacob1.jpg" alt="image 3">
+                    <img src="img/jacob3.jpg" alt="image 4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="explore">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/bgrnd.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Explore</h1>
+                    <p><strong><span>In</span> 1986, Jacob Arabo founded the retail jewelry company, Diamond Quasar,
+                            doing business under the Jacob & Co. name. By the early 1990s, he had established his own
+                            kiosk in New York's Diamond District and his innovative jewels caught the attention of the
+                            late rapper Notorious B.I.G., who gave him the moniker "Jacob the Jeweler," and introduced
+                            him to his entertainment friends.<br><br> <span>In</span> the 1990s he was one of the first
+                            jewelers to create big diamond jewels for men, a trend that is mainstream
+                            today.<br><br><span>With</span> his success in the jewelry business, Arabo turned to
+                            watches. In 2002, he created a quartz watch collection called the Five Time Zone that
+                            combined bold primary colors and with multiple time zone technology that attracted men and
+                            women. It was inspired by his clients' jet-setting lifestyle and became both a fashion
+                            statement and usable timepiece for those who travel.</strong></p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Milestone')">Milestone</p>
+                        <p class="tab-links" onclick="opentab('Specification')">Specification</p>
+                        <p class="tab-links" onclick="opentab('Achievements')">In Poular Culture</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Milestone">
+                        <ul>
+                            <li><strong><span>2002:</span></strong> Jacob & Co. unveiled the quartz powered Five Time
+                                Zone watch collection</li>
+                            <li><strong><span>2004:</span></strong> Jacob & Co. moved from the diamond district to a
+                                flagship boutique at 57th Street and Park Avenue</li>
+                            <li><strong><span>2007:</span></strong> Arabo founded Jacob & Co. SA in Geneva, Switzerland,
+                                and introduced his first high-watchmaking timepiece, the Quenttin</li>
+                            <li><strong><span>2011:</span></strong> Jacob & Co.'s first brand ambassador, Chinese
+                                martial arts action star and director, Donnie Yen</li>
+                            <li><strong><span>2015:</span></strong> Jacob & Co. unveiled the Billionaire watch with a
+                                price tag of $18 million. The 18k white gold case and bracelet was covered with 260
+                                carats of diamonds, with each individual gem weighing 3 carats each</li>
+                            <li><strong><span>2021:</span></strong> Jacob & Co. became the first luxury watch brand to
+                                sell an NFT with a digital version of the SF24 Tourbillon travel watch that fetched
+                                $100,000 and became the first luxury watch brand that accepts cryptocurrency</li>
+                            <li><strong><span>2022:</span></strong> Jacob & Co. moved its Geneva boutique from the Four
+                                Seasons Hotel des Bergues to a two-story dedicated space at Rue du Rhône</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Specification">
+                        <ul>
+                            <li><strong><span>Expensive</span></strong> due to their high-end materials, precision
+                                craftsmanship,<br> limited production, exclusivity, and exceptional after-sales service.
+                            </li><br>
+                            <li><strong><span>Limited Edition</span></strong> collections that are highly sought after
+                                by collectors worldwide</li><br>
+                            <li><strong><span>Celebrity endorsement </span></strong> in marketing and advertising cost
+                                by calling celebrities<br> for the endorsement</li><br>
+                            <li><strong><span>Handcrafted movement</span></strong> such that each of the<br> watch is
+                                unique and of the highest quality</li><br>
+                            <li><strong><span>Expert</span></strong> craftmenship with each timepiece bi skilled
+                                artisans</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Achievements">
+                        <ul>
+                            <li><strong><span>Jacob & co.</span></strong> known for providing watches and other jewelry
+                                to<br> hip-hop artists, National Basketball Association players, boxers, and other
+                                celebrities.</li><br>
+                            <li><strong><span>In 2004</span> </strong> featured in the game Def Jam: Fight for NY, in
+                                which the<br> players hip-hop characters compete to earn cash with which they can
+                                buy<br> jewelry from Jacob the Jeweler</li><br>
+                            <li><strong><span>Jacob Arabo and Jacob & Co</span></strong> are mentioned in numerous rap
+                                songs,<br> including songs by Nas, Beyoncé and others.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about"></div>
+    <div class="container">
+        <h1 class="sub-title">About Us</h1>
+        <h2 style="color:#90d2dc;">Celebrities endorsement</h2>
+        <div class="services-list">
+            <div>
+                <h2><span>CR 7</span></h2>
+                <p><strong>Cristiano Ronaldo is a long-standing and close partner to Jacob & Co. He and Founder and
+                        Chairman Jacob Arabo have established a strong relationship based in trust and respect over the
+                        past twenty years.
+                    </strong></p>
+                <a href="https://jacobandco.com/timepieces/high-complication-masterpieces/jacob-co-x-cr7" target="_main"
+                    style="color: #22c543;"><strong>Learn more</strong></a><br><br><br><br>
+                <img src="img/ronaldo.jpg" alt="img" height="200px" style="position:center">
+            </div>
+
+            <div>
+                <h2>Vito Andolini Corleone</h2>
+                <p><strong>For the Opera Godfather, Jacob & Co. has partnered with Paramount Pictures to use the film's
+                        iconic theme music. This is the first time Paramount has partnered with a watch company in this
+                        way and it was a challenge to secure the rights.
+                    </strong>
+                </p>
+                <a href="https://jacobandco.com/partnerships/paramount" style="color: #b07b4f;"
+                    target="_main"><strong>Learn
+                        more</strong></a><br><br>
+                <img src="img/godfather.jpg" alt="img" width="250px" style="position:center">
+            </div>
+
+            <div>
+                <h2>Johan Ernst Nilson</h2>
+                <p><strong>Jacob & Co. is pleased to partner with explorer/environmental activist Johan Ernst Nilson,
+                        creating an exclusive and exciting version of the brand's iconic Astronomia, but this one with
+                        key elements celebrating the beauty of and highlighting the risks facing Planet Earth.
+                    </strong>
+                </p>
+                <a href="https://jacobandco.com/partnerships/astronomia-everest" style="color: #973606;"
+                    target="_main"><strong>Learn
+                        more</strong></a><br><br>
+                <img src="img/astronomia.jpg" alt="img" width="250px" style="position:center">
+            </div>
+
+        </div>
+    </div>
+    <div id="collections">
+        <div class="container">
+            <h1 class="sub-title">Collections</h1><br>
+            <h2 style="color:#90d2dc;">Watches</h2>
+            <br>
+            <div class="reaction-buttons">
+                <button class="btn btn-light" style="background-color: rgb(15, 65, 172);" height="10px"><i
+                        class="far fa-thumbs-up"></i>Like</button>
+                <button class="btn btn-light" style="background-color: rgb(16, 61, 157);"><i
+                        class="far fa-thumbs-down">Dislike</i></button>
+                <button class="btn btn-light" style="background-color: rgb(191, 10, 10);"><i
+                        class="far fa-heart"></i>Love</button>
+                <button class="btn btn-light" style="background-color: rgb(200, 193, 12);"><i
+                        class="far fa-smile"></i>Smile</button>
+                <button class="btn btn-light" style="background-color: rgb(191, 194, 12);"><i
+                        class="far fa-laugh"></i>Laugh</button>
+            </div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/buggati.jpg">
+                    <div class="layer">
+                        <h3>Buggati Chiron</h3>
+                        <p>It started with an idea conceived by Jacob & Co. together with Bugatti - how to reproduce the
+                            visceral sensation of the iconic Bugatti 16-cylinder engine in a timepiece. The case is
+                            inspired by the flowing lines of the Chiron and the movement, or "engine block," intended to
+                            duplicate the Bugatti engine, is placed under a massive sapphire crystal, on display for
+                            all.
+                        </p>
+                        <a href="https://jacobandco.com/timepieces/bugatti-chiron-tourbillon-black-titanium"
+                            target="_main">Learn</a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/opera godfather.jpg">
+                    <div class="layer">
+                        <h3><span>The Opera Godfather<br> Musical Watch</span></h3>
+                        <p style="position: center"> The Opera Godfather is powered by its exclusive, 658-component
+                            JCFM04 movement, a caliber of absolutely peerless construction and an unmatched capacity to
+                            amaze and entertain.</p>
+                        <a href="https://jacobandco.com/timepieces/grand-complication-masterpieces/opera-godfather-musical-tourbillon-rose"
+                            target="_main">Learn</a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/astro.jpg" style="position: center;">
+                    <div class="layer">
+                        <h3>Astronomia Tourbillon</h3>
+                        <p>The Astronomia is the embodiment of 21st-century ultra-high-end watchmaking and a globally
+                            recognized symbol of Jacob & Co watchmaking expertise. A world-first both in the boldness of
+                            its unprecedented concept and its entirely mechanical construction, the Astronomia has gone
+                            beyond impressive horological achievements to becoming an outstanding multidisciplinary
+                            engineering accomplishment.</p>
+                        <a href="https://jacobandco.com/timepieces/grand-complication-masterpieces/astronomia-tourbillon-rose-gold"
+                            target="_main">Learn</a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/casino.jpg">
+                    <div class="layer">
+                        <h3>Casino Tourbillon</h3>
+                        <p>The Astronomia Casino's wheel, rendered in a spectacular array of green, red, and black
+                            enamel with mahogany inlays, is set in motion by a button at the eight o'clock position
+                            (which also winds the power reserve for the animation).This exceptional timepiece, the
+                            latest in Jacob & Co.'s signature Astronomia collection of celestial-themed timepieces</p>
+                        <a href="https://jacobandco.com/timepieces/grand-complication-masterpieces/astronomia-tourbillon-casino-rose-gold"
+                            target="_main">Learn</a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/epic.jpg">
+                    <div class="layer">
+                        <h3>Epic X Producer Michael</h3>
+                        <p>The Epic X is a watch collection defined by its unmistakable design, contemporary style and
+                            high-end watchmaking solutions. Every Epic X is a bold combination of traditional and
+                            high-tech materials, exclusive and highly refined calibers, and an aesthetic that is
+                            immediately recognizable as well as versatile. From sporty and rugged to precious and
+                            elegant, every Epic X is as striking as it is multifaceted.</p>
+                        <a href="https://jacobandco.com/timepieces/high-complication-masterpieces/epic-x-producer-michael-titanium-with-rainbow-inner-ring"
+                            target="_main">Learn</a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/batman.jpg">
+                    <div class="layer">
+                        <h3>Gotham City Black DLC</h3>
+                        <p>The Gotham City is destined for a Jacob & Co. audience that also relates to his secret
+                            identity : that of a playboy billionaire, nonchalant and gifted with extremely good taste.
+                            The duality of the comic's character invented by Bob Kane is furthered in the Gotham City.
+                            The Black DLC version of the Gotham City is edited as an 36-piece limited series.</p>
+                        <a href="https://jacobandco.com/timepieces/high-complication-masterpieces/gotham-city/gotham-city-black-dlc-titanium"
+                            target="_main">Learn</a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/twin turbo.jpg">
+                    <div class="layer">
+                        <h3>Twin Turbo Furious</h3>
+                        <p>The Twin Turbo Furious takes the exceptionally cool and uniquely complex Twin Turbo
+                            concept.With its painstakingly hand-decorated and hand-assembled 832 components, the Twin
+                            Turbo Furious is a true Grand Complication Masterpiece that offers a singular combination of
+                            ultra-high-end mechanisms, all exclusive to Jacob & Co.</p>
+                        <a href="https://jacobandco.com/timepieces/grand-complication-masterpieces/twin-turbo-furious-black-titanium"
+                            target="_main">Learn</a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/nft.jpg" style="margin-bottom: 0;" width="300px">
+                    <div class="layer">
+                        <h3>NFT</h3>
+                        <p>The Jacob & Co. SF24 Tourbillion timepiece, a digital “piece unique,” reached the impressive
+                            amount in a 24-hour auction that began Wednesday on the ArtGails NFT platform.</p>
+                        <a href="https://www.highsnobiety.com/p/jacob-co-nft-watch/" target="_main">Learn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fas fa-paper-plane"></i> info@jaconandco.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 212 719 5887</p>
+                    <p><strong>Location </strong>: Jacob & Co. HQ.<br> Flagship Boutique 48 East 57th St.<br> New York
+                        United States Of America. </p><br>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+
+                    <table>
+                        <tr>
+                            <td>
+                                <form autocomplete="off" onsubmit="onFormSubmit(event)">
+                                    <h2>CRUD Form</h2><br>
+                                    <div>
+                                        <label for="watchcode">Watch Code</label>
+                                        <input type="number" name="watchcode" id="watchcode">
+                                    </div>
+                                    <div>
+                                        <label for="watchname">Watch Name</label>
+                                        <input type="text" name="watchname" id="watchname">
+                                    </div>
+                                    <div>
+                                        <label for="country">Country</label>
+                                        <input type="text" name="country" id="country">
+                                    </div>
+                                    <div>
+                                        <label for="perPrice">Price</label>
+                                        <input type="number" name="perPrice" id="perPrice">
+                                    </div>
+                                    <div class="form_acton--button">
+                                        <input type="submit" value="Submit">
+                                        <input type="reset" value="Reset">
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="list" id="storeList" style="background-color: #084151;">
+                        <thead>
+                            <tr>
+                                <th>Watch Code</th>
+                                <th>Watch Name</th>
+                                <th>Country</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody id="storeListBody"></tbody>
+                    </table>
+
+
+                    <form>
+                        <h3><span>Feedback Form</span></h3>
+                        <input type="text" name="Name" placeholder="Enter Your Name" col="15" required>
+                        <input type="email" name="email" col="15" placeholder="Your Email" required>
+                        <select name="watch" id="watch">
+                            <option value="not select">Select your watch</option>
+                            <option value="buggati">Buggati Chiron</option>
+                            <option value="Godfather">Godfather</option>
+                            <option value="Astronomia">Astronomia Tourbillon</option>
+                            <option value="casino">Casino</option>
+                            <option value="epic x">Epic X Producer Michael</option>
+                            <option value="batman">Gotham City Black</option>
+                            <option value="twin turbo">Twin Turbo Furious</option>
+                            <option value="nft">NFT</option>
+                        </select>
+
+                        <label for="sectionida">
+                            <input type="radio" value="Section a" name="section" id="sectionida">Endorsing
+                        </label>
+                        <label for="sectionidb">
+                            <input type="radio" value="Section b" name="section" id="sectionidb">Not Endorsing
+                        </label><br>
+                        <textarea name="Message" cols="15" rows="3" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Jacob & Co. Made with <i class="fa-solid fa-heart"></i> by sap_ayush </p>
+        </div>
+    </div>
+
+    <!-- script for the image slider -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- script for the reaction  -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        $(document).ready(function () {
+            $('.image-slider').slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
+            });
+        });
+
+        var selectedRow = null;
+
+        function onFormSubmit(e) {
+            e.preventDefault();
+            if (selectedRow === null) {
+                insertNewRecord(readFormData());
+            } else {
+                updateRecord(readFormData());
+            }
+        }
+
+        function readFormData() {
+            var formData = {};
+            formData["watchcode"] = document.getElementById("watchcode").value;
+            formData["watchname"] = document.getElementById("watchname").value;
+            formData["country"] = document.getElementById("country").value;
+            formData["perPrice"] = document.getElementById("perPrice").value;
+
+            return formData;
+        }
+
+        function insertNewRecord(data) {
+            var table = document.getElementById("storeList").getElementsByTagName('tbody')[0];
+            var newRow = table.insertRow(table.length);
+            var cell1 = newRow.insertCell(0);
+            cell1.innerHTML = data.watchcode;
+            var cell2 = newRow.insertCell(1);
+            cell2.innerHTML = data.watchname;
+            var cell3 = newRow.insertCell(2);
+            cell3.innerHTML = data.country;
+            var cell4 = newRow.insertCell(3);
+            cell4.innerHTML = data.perPrice;
+            var cell5 = newRow.insertCell(4);
+            cell5.innerHTML = `<button onclick='onEdit(this)'>Edit</button> <button onclick='onDelete(this)'>Delete</button>`;
+        }
+
+        function onEdit(td) {
+            selectedRow = td.parentElement.parentElement;
+            document.getElementById("watchcode").value = selectedRow.cells[0].innerHTML;
+            document.getElementById("watchname").value = selectedRow.cells[1].innerHTML;
+            document.getElementById("country").value = selectedRow.cells[2].innerHTML;
+            document.getElementById("perPrice").value = selectedRow.cells[3].innerHTML;
+        }
+
+        function onDelete(button) {
+            if (confirm('Do you want to delete?')) {
+                var row = button.parentNode.parentNode;
+                document.getElementById('storeList').deleteRow(row.rowIndex);
+                selectedRow = null; // Reset selectedRow after deletion
+            }
+        }
+
+        // Resetting the form is not necessary after deletion or editing
+
+        function updateRecord(formData) {
+            selectedRow.cells[0].innerHTML = formData.watchcode;
+            selectedRow.cells[1].innerHTML = formData.watchname;
+            selectedRow.cells[2].innerHTML = formData.country;
+            selectedRow.cells[3].innerHTML = formData.perPrice;
+        }
+
+    </script>
+</body>
+
+</html>
